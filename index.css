@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#degree{
+    width: 350px;
+    margin: 10px;
+    border: 5px solid rgb(41, 134, 221);
+    font-size: 22px;
+    letter-spacing: 5px;
+}
+.row{
+    margin: 10px;
+}
+
+#C{
+    border: 5px solid rgb(41, 134, 221);
+    background-color: gray;
+    color: yellow;
+    padding: 5px;
+    font-size: 18px;
+    letter-spacing: 5px;
+    cursor: pointer;
+    padding: 0 12px;
+
+}
+
+#F{
+    border: 5px solid rgb(41, 134, 221);
+    background-color: gray;
+    color: rgb(126, 237, 35);
+    padding: 5px;
+    font-size: 18px;
+    letter-spacing: 5px;
+    cursor: pointer;
+    padding: 0 12px;
+
+}
+
+h1{
+    font-size: 35px;
+    color: rgb(41, 134, 221);
+    margin-left: 10px;
+}
+
+.result{
+    width: 150px;
+    height: 150px;
+    border: 5px solid rgb(41, 134, 221);
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-top: 25px;
+    display: none;
+    
+   
+}
+
+.result1{
+    width: 150px;
+    height: 150px;
+    border: 5px solid rgb(41, 134, 221);
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: aqua;
+    color: coral;
+}
+
+.result2{
+    width: 150px;
+    height: 150px;
+    border: 5px solid rgb(41, 134, 221);
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-top: 25px;
+    display: none;
+}
+
+.result3{
+    width: 150px;
+    height: 150px;
+    border: 5px solid rgb(41, 134, 221);
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: aqua;
+    color: coral;
+}
+
+body{
+    background-image: url("/1b9oh95hw4n21.webp");
+}
+
+.myButton{
+    background-color: grey;
+    border: 5px solid rgb(41, 134, 221);
+    border-radius: 5px;
+    color: rgb(9, 203, 233);
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
