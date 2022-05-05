@@ -2,112 +2,112 @@
 
 // let div_elem = document.getElementsByClassName("myDiv")[0]
 
-// let pyramidFunctionTriangle = rows => {
+let pyramidFunctionTriangle = rows => {
 
-//     for (let i = 0; i <= rows; i++) {
+    for (let i = 0; i <= rows; i++) {
 
-//         let myStars = " "
+        let myStars = " "
 
-//         for (let j = 0; j < rows - i; j++)
+        for (let j = 0; j < rows - i; j++)
 
-//             myStars = myStars + '&nbsp;'
+            myStars = myStars + ' '
 
-//         for (let k = 0; k <= i; k++)
+        for (let k = 0; k <= i; k++)
 
-//             myStars = myStars + '* '
+            myStars = myStars + '* '
 
-//         console.log(myStars)
+        console.log(myStars)
 
-//         div_elem.innerHTML += myStars + "<br>"
+        // div_elem.innerHTML += myStars + "<br>"
 
-//     }
+    }
 
-// }
-// pyramidFunctionTriangle(5)
+}
+pyramidFunctionTriangle(5)
 
-// let pyramidFunctionTriangleLeft = rows => {
+let pyramidFunctionTriangleLeft = rows => {
 
-//     let div_elem = document.getElementsByClassName("myDiv")[0]
+    // let div_elem = document.getElementsByClassName("myDiv")[0]
 
    
-//     for(let i = 0; i <= rows; i++){
+    for(let i = 0; i <= rows; i++){
 
-//         let myStars = ''
+        let myStars = ''
 
-//         for(let j = 5; j < rows - i; j++)
+        for(let j = 5; j < rows - i; j++)
 
-//         myStars = myStars + ' '
+        myStars = myStars + ' '
 
-//         for(let k = 0; k <= i; k++)
+        for(let k = 0; k <= i; k++)
 
-//         myStars = myStars + '* '
+        myStars = myStars + '* '
 
-//         div_elem.innerHTML += myStars + "<br>"
+        // div_elem.innerHTML += myStars + "<br>"
 
-//         console.log(myStars)
-
-       
-//     }
-
-// }
-// pyramidFunctionTriangleLeft(5)
-
-
-
-// let pyramidFunctionTriangleDown = rows => {
-
-//     // let pyramidInHtml = document.getElementById("myPyramid")
-//     let div_elem = document.getElementsByClassName("myDiv")[0]
+        console.log(myStars)
 
        
-//         for(let i = 0; i <= rows; i++){
+    }
+
+}
+pyramidFunctionTriangleLeft(5)
+
+
+
+let pyramidFunctionTriangleDown = rows => {
+
+    // let pyramidInHtml = document.getElementById("myPyramid")
+    // let div_elem = document.getElementsByClassName("myDiv")[0]
+
+       
+        for(let i = 0; i <= rows; i++){
     
-//             let myStars = ''
+            let myStars = ''
     
-//             for(let j = 0; j < i; j++)
+            for(let j = 0; j < i; j++)
     
-//             myStars = myStars + ' '
+            myStars = myStars + ' '
     
-//             for(let k = 0; k < 1 *(rows - i) - 1; k++)
+            for(let k = 0; k < 1 *(rows - i) - 1; k++)
     
-//             myStars = myStars + '* '
+            myStars = myStars + '* '
     
-//             // pyramidInHtml.innerHTML = myStars
-// //             div_elem.innerHTML += myStars + "<br>"
+            // pyramidInHtml.innerHTML = myStars
+//             div_elem.innerHTML += myStars + "<br>"
 
     
-//             console.log(myStars)
+            console.log(myStars)
            
-//         }
+        }
     
-//     }
-//     pyramidFunctionTriangleDown(6)
+    }
+    pyramidFunctionTriangleDown(6)
 
-// let pyramidFunctionTriangleRight = rows => {
+let pyramidFunctionTriangleRight = rows => {
 
-//         let pyramidInHtml = document.getElementById("myPyramid")
+        // let pyramidInHtml = document.getElementById("myPyramid")
            
-//             for(let i = 1; i <= rows; i++){
+            for(let i = 1; i <= rows; i++){
         
-//                 let myStars = ''
+                let myStars = ''
         
-//                 for(let j = 0; j < rows - i; j++)
+                for(let j = 0; j < rows - i; j++)
         
-//                 myStars = myStars + ' '
+                myStars = myStars + ' '
         
-//                 for(let k = 0; k < i; k++)
+                for(let k = 0; k < i; k++)
         
-//                 myStars = myStars + '*'
+                myStars = myStars + '*'
         
-//                 // pyramidInHtml.innerHTML = myStars + "<br>"
+                // pyramidInHtml.innerHTML = myStars + "<br>"
         
-//                 console.log(myStars)
+                console.log(myStars)
                
                
-//             }
+            }
         
-//         }
-//         pyramidFunctionTriangleRight(6)
+        }
+        pyramidFunctionTriangleRight(6)
 
 
 
